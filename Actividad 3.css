@@ -44,12 +44,13 @@
 /*#endregion*/
 
 /*#region Section*/
-.row {
-    display: flex;
+.row {    
     gap: 12px;
     margin-top: 10px;
     margin-bottom: 10px;
     flex-direction: row;
+    background-color: rgb(138, 43, 226);
+    text-align: center;
 }
 
 .left-column,
@@ -70,11 +71,9 @@
 
 .imagen{
     width: 50px;
-    height: 50px;
-    display: flex;
-    margin-left: 50px;
-
-    
+    height: 50px;    
+    margin-top: 10px;
+    align-items: center;   
 }
 
 /*#endregion*/
