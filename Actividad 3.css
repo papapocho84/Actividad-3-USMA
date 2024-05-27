@@ -106,7 +106,7 @@ li {
 
 .row3 {
     display: flex;
-    align-items: center;
+    column-gap: 0%;
 }
 
 
