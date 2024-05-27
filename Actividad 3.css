@@ -1,6 +1,6 @@
 * {
     margin: 0px;
-    padding: 0px;
+    padding: 6px;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
@@ -34,9 +34,8 @@
 
 .opciones li a {
     text-decoration: none;
-    padding: 10px;
+    padding: 1px;
     font-size: 20px;
-    color: rgb(195, 0, 255);
     display: block;
     font-weight: bold;
 }
@@ -44,7 +43,7 @@
 /*#endregion*/
 
 /*#region Section*/
-.row {    
+.row {
     gap: 12px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -52,42 +51,87 @@
     display: flex;
 }
 
-p{
+p {
     text-align: justify;
     margin: auto;
     width: 90%;
 }
 
 .bloque1 {
-    background-color: rgb(138, 43, 226);
+    background-color: rgb(132, 0, 255);
     flex: 40%;
     height: 500px;
-    color: rgb(3, 255, 171);
+    color: rgb(0, 255, 170);
 }
 
 .bloque2 {
-    background-color: rgb(138, 43, 226);
+    background-color: rgb(132, 0, 255);
     flex: 10%;
     color: rgb(0, 255, 170);
 }
 
-.imagen{
+.imagen {
     width: 80px;
-    height: 80px;    
+    height: 80px;
     margin-top: 10px;
-    align-items: center;   
+    align-items: center;
 }
 
 /*#endregion*/
 
 /*#region footer*/
-footer{
-    background-color: aquamarine;    
+
+.row2 {
+    background-color: rgb(0, 255, 170);
 }
 
-.head h1, li{
-    color: rgb(153, 0, 255);
+.footer {
+    display: flex;
+    column-gap: 7%;
+
+}
+
+.footer .imagen img {
+    height: 200%;
+    width: 200%;
+    margin-bottom: 100%;
+
+}
+
+.footer .name h3,
+li {
+    color: rgb(132, 0, 255);
+
+}
+
+.row3 {
+    display: flex;
+    align-items: center;
+}
+
+
+.row3 .social img {
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin-left: 300px;
+
+}
+
+.row3 .link a {
+    display: block;
+    text-decoration: none;
     
 }
+
+a {
+    color: rgb(132, 0, 255);
+}
+
+a:hover {
+    color: rgb(255, 0, 179);
+}
+
+
 
 /*#endregion*/
