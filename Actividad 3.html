@@ -28,8 +28,8 @@
     <section class="row">
         <div class="bloque1">
             <br />
-            <h1>INFORMACION PERSONAL</h1>
-            <h2>Jose Guerrero</h2><br />
+            <h1>INFORMACIÓN PERSONAL</h1>
+            <h2>José Guerrero</h2><br />
             <img class="imagen"
                 src="https://icon-library.com/images/contact-image-icon/contact-image-icon-1.jpg"><br /><br />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -44,20 +44,30 @@
                 rem voluptates sed officiis porro recusandae cupiditate.</p><br />
         </div>
         <div class="bloque2">
-            <form>
-                <br />
-                <h3>CONTACTO</h3><br />
-                <label for="Nombre">Nombre</label><br />
-                <input id="Nombre" type="text" /><br /><br />
-                <label for="Correo">Correo</label><br />
-                <input id="Correo" type="email" /><br /><br />
-                <label for="Telefono">Telefono</label><br />
-                <input id="Telefono" type="tel" /><br /><br />
-                <label for="Mensaje">Mensaje</label><br />
-                <textarea id="Mensaje" cols="20" rows="5"></textarea><br /><br />
-                <input type="submit"><br /><br />
+            
+              
+            <h3>CONTACTO</h3>
+
+            <form id="formulario">
+
+                    <label for="Nombre">Nombre</label>
+                    <input id="Nombre" type="text" name="Nombre" required>
+
+                    <label for="Correo">Correo</label>
+                    <input id="Correo" type="email" name="Correo" required>
+
+                    <label for="Telefono">Teléfono</label>
+                    <input id="Telefono" type="tel" name="Telefono" required>
+
+                    <label for="Mensaje">Mensaje</label>
+                    <textarea id="Mensaje" cols="20" rows="5" required></textarea>
+
+                    <center><button type="submit">Enviar</button></center>
             </form>
+         
+            <div id="resultado"></div>
         </div>
+        
     </section>
     <section class="row2">
         <footer class="footer">
@@ -68,7 +78,7 @@
                 <h3>José Guerrero</h3>
                 <ul>
                     <li>Contacto: jl04091984@gmail.com</li>
-                    <li>Telefono: 6521-5208</li>
+                    <li>Teléfono: 6521-5208</li>
                 </ul>
             </div>
         <section class="row3">
@@ -85,7 +95,7 @@
         </section>
         
         </footer>
-
+<script src="JsFormulario.js"></script>
 </body>
 
 </html>
